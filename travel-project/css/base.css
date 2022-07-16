@@ -10,6 +10,10 @@ body {
     background-color: #f6f6f6;
 }
 
+a {
+    color: #fff;
+}
+
 .none {
     display: none !important;
 }
