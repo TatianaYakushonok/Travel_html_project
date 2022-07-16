@@ -24,6 +24,18 @@ body {
     padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding));
 }
 
+.btn {
+    display: inline-block;
+    padding: 13px 44px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 100px;
+    transition: background-color .3s ease-in;
+}
+
+.btn:hover {
+    background: linear-gradient(129.54deg, #FF7B4E 95.03%, #FF584E 15.57%), #FFFFFF;
+}
+
 .block {
     height: 200px;
     background-color: chartreuse;
