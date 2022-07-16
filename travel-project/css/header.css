@@ -91,6 +91,10 @@
     gap: 25px;
 }
 
+.nav-login a {
+    transition: all .3s ease-in;
+}
+
 .header__badge {
     display: inline-block;
     margin-bottom: 7px;

@@ -1,0 +1,40 @@
+
+.footer {
+    padding: 56px 0 74px;
+}
+
+.logo__footer a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF7C4E;
+}
+
+.nav-list--footer a {
+    color: var(--secondary);
+}
+
+.nav-list.nav-list--footer a.active::after,
+.nav-list.nav-list--footer a:hover::after {
+    display: none;
+}
+
+.nav__link--footer:hover,
+.nav-login__link--footer:hover {
+    color: #0F1F1C;
+}
+
+.nav-login--footer {
+    column-gap: 66px;
+}
+
+.nav-login__link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.nav-login__link--footer {
+    color: #838B89;
+    transition: all .3 ease-in;
+} 

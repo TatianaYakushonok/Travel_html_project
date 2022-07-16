@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #fff;
+    color: inherit;
 }
 
 .none {
@@ -37,6 +37,10 @@ a {
 .btn {
     display: inline-block;
     padding: 13px 44px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
     border-radius: 100px;
     transition: background-color .3s ease-in;
