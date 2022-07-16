@@ -1,0 +1,52 @@
+.cta {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta_plate {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 116px 262px;
+    border-radius: 60px;
+    background: #fff;
+}
+
+.cta_plate::before,
+.cta_plate::after {
+    position: absolute;
+    width: 63px;
+    height: 83px;
+}
+
+.cta_plate::before {
+    content: url('../img/cta/cta-el-01.svg');
+    top: 74px;
+    right: 80px;
+}
+
+.cta_plate::after {
+    content: url('../img/cta/cta-el-02.svg');
+    bottom: 56px;
+    left: 74px;
+}
+
+.cta__title {
+    margin-bottom: 30px;
+}
+
+.cta__text {
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--secondary);
+}
+
+.cta__btn {
+    padding: 24px 54px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+}

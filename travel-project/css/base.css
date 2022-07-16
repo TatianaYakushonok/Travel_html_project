@@ -28,6 +28,12 @@ a {
     padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding));
 }
 
+.section__title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 68px;
+}
+
 .btn {
     display: inline-block;
     padding: 13px 44px;
