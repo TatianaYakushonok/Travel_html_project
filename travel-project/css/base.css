@@ -18,6 +18,10 @@ a {
     display: none !important;
 }
 
+.no-scroll {
+    overflow-y: hidden;
+}
+
 .container {
     max-width: var(--container-width);
     margin: 0 auto;

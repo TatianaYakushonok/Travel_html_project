@@ -1,0 +1,61 @@
+.menu-icon-wrapper {
+
+    --time: 0.2s;
+    --width: 30px;
+    --heght: 30px;
+    --line-height: 5px;
+    --color: #fff;
+
+    width: var(--width);
+    height: var(--heght);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.menu-icon {
+    position: relative;
+    width: var(--width);
+    height: var(--line-height);
+    background-color: var(--color);
+}
+
+.menu-icon::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: '';
+    width: var(--width);
+    height: var(--line-height);
+    background-color: var(--color);
+    transition: transform var(--time) ease-in, top var(--time) linear var(--time);
+
+}
+
+.menu-icon::after {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    content: '';
+    width: var(--width);
+    height: var(--line-height);
+    background-color: var(--color);
+    transition: transform var(--time) ease-in, top var(--time) linear var(--time);
+
+}
+
+.menu-icon.menu-icon-active {
+    background-color: transparent;
+}
+
+.menu-icon.menu-icon-active::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: top var(--time) linear, transform var(--time) ease-in var(--time);
+}
+
+.menu-icon.menu-icon-active::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top var(--time) linear, transform var(--time) ease-in var(--time);
+}
