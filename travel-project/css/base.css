@@ -58,3 +58,11 @@ a {
     height: 200px;
     background-color: chartreuse;
 }
+
+@media (max-width: 850px) {
+
+    .section__title {
+        font-size: 35px;
+        line-height: 53px;
+    }
+}

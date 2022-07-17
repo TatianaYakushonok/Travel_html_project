@@ -56,3 +56,46 @@
     line-height: 33px;
     color: var(--secondary);
 }
+
+@media (max-width: 850px) {
+
+    .customers__row {
+        padding: 50px 0 60px;
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+
+    .customers__title {
+        margin-bottom: 25px;
+    }
+
+    .review__client {
+        margin-bottom: 30px;
+        column-gap: 20px;
+    }
+
+    .review__client--avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .review__client--name {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .review__client--country {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .review__text {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .review__rating {
+        max-width: 200px;
+    }
+}
