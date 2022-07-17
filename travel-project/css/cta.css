@@ -50,3 +50,65 @@
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
     border-radius: 27px;
 }
+
+@media (max-width : 1200px) {
+
+    .cta_plate {
+        padding: 116px 150px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .cta {
+        padding: 50px 0;
+    }
+
+    .cta_plate {
+        padding: 100px 80px;
+        border-radius: 40px;
+    }
+
+    .cta__title {
+        margin-bottom: 20px;
+    }
+
+    .cta__text {
+        margin-bottom: 30px;
+        font-size: 25px;
+        line-height: 37px;
+    }
+
+    .cta__btn {
+        padding: 20px 35px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+    .cta_plate::before {
+        top: 30px;
+        right: 30px;
+    }
+
+    .cta_plate::after {
+        bottom: 30px;
+        left: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .cta_plate {
+        padding: 80px 30px;
+    }
+
+    .cta__title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .cta__text {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
