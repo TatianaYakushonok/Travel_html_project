@@ -18,6 +18,10 @@ a {
     display: none !important;
 }
 
+.no-scroll {
+    overflow-y: hidden;
+}
+
 .container {
     max-width: var(--container-width);
     margin: 0 auto;
@@ -43,7 +47,7 @@ a {
     color: #fff;
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
     border-radius: 100px;
-    transition: background-color .3s ease-in;
+    transition: all .3s ease-in;
 }
 
 .btn:hover {
@@ -53,4 +57,12 @@ a {
 .block {
     height: 200px;
     background-color: chartreuse;
+}
+
+@media (max-width: 850px) {
+
+    .section__title {
+        font-size: 35px;
+        line-height: 53px;
+    }
 }

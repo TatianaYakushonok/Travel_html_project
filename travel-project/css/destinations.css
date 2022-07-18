@@ -51,6 +51,11 @@
     flex-shrink: 0;
 }
 
+.owl-item {
+    display: flex;
+    justify-content: center;
+}
+
 .slider__item {
     width: 335px;
     height: 402px;
@@ -76,7 +81,12 @@
     align-items: center;
     border-radius: 50%;
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+    transition: all .3s ease-in;
     z-index: 10;
+}
+
+.slider__btn:hover {
+    background: linear-gradient(129.54deg, #FF7B4E 95.03%, #FF584E 15.57%), #8B8B8B;
 }
 
 .slider__btn--prev {
@@ -89,4 +99,102 @@
     right: -27px;
     justify-content: flex-end;
     padding-right: 26px;
+}
+
+@media(max-width: 1270px) {
+
+    .container-right {
+        padding-left: 15px;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .destinations__slider {
+        width: 900px;
+    }
+}
+
+@media(max-width: 1000px) {
+
+    .destinations__row {
+        align-items: center;
+    }
+
+    .destinations__slider {
+        width: 700px;
+        height: 304px;
+    }
+
+    .slider .slider__item {
+        width: 223px;
+        height: 268px;
+        margin-top: 18px;
+    }
+
+    .slider .center .slider__item {
+        width: 253px;
+        height: 304px;
+    }
+}
+
+@media(max-width: 850px) {
+
+    .destinations {
+        padding: 40px 0 50px;
+    }
+
+    .container-right {
+        padding-right: 15px;
+    }
+    
+    .destinations__row {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 30px;
+    }
+
+    .destinations__title {
+        margin-bottom: 10px;
+        font-size: 35px;
+        line-height: 53px;
+    }
+
+    .destinations__title span {
+        display: block;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .destinations__text {
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .destinations__btn {
+        padding: 20px 35px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+    .destinations__slider {
+        width: 100%;
+        height: 304px;
+    }
+
+    .slider__btn--prev {
+        left: -10px;
+    }
+
+    .slider__btn--next {
+        right: -10px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .destinations {
+        padding: 40px 0 20px;
+    }
 }
