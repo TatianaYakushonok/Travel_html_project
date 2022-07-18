@@ -99,3 +99,10 @@
         max-width: 200px;
     }
 }
+
+@media (max-width: 420px) {
+
+    .customers__row {
+        padding: 20px 0;
+    }
+}

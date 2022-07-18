@@ -98,6 +98,10 @@
 
 @media (max-width: 420px) {
 
+    .cta {
+        padding: 20px 0;
+    }
+
     .cta_plate {
         padding: 80px 30px;
     }

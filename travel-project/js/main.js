@@ -8,8 +8,13 @@ owl.owlCarousel({
     startPosition: 1,
     items: 3,
     responsive : {
-        // breakpoint from 320 up
-        320 : {
+        // breakpoint from 0 up
+        0 : {
+            margin: 10,
+            items: 1,
+        },
+        // breakpoint from 321 up
+        321 : {
             margin: 10,
             items: 2,
         },
@@ -20,6 +25,7 @@ owl.owlCarousel({
         },
         // breakpoint from 850 up
         850 : {
+            startPosition: 1,
             margin: 20,
             items: 3,
         },

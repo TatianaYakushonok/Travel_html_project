@@ -47,7 +47,7 @@ a {
     color: #fff;
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
     border-radius: 100px;
-    transition: background-color .3s ease-in;
+    transition: all .3s ease-in;
 }
 
 .btn:hover {
